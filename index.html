@@ -10,6 +10,7 @@
     <meta itemprop="name" content="Attestation de déplacement dérogatoire" />
   
     <style>
+
         body {
             font: 16px sans-serif;
             margin: 0 auto;
@@ -23,16 +24,18 @@
             font-size: 16px;
             font-weight: normal;
         }
+
     </style>
   </head>
   <body>
     <main>
     <h1>Attestation de déplacement dérogatoire</h1>
-    <h2>
+    <p>
       En application de l’article premier du décret du 16 mars 2020 portant
       réglementation des déplacements dans le cadre de la lutte contre la
       propagation du virus Covid-19 :
-    </h2>
+    </p>
+
 
     <p>Je soussignée</p>
     <p><label for="nom">Mme / M. <input type="text" id="nom" /></label></p>
@@ -88,12 +91,5 @@
         disponible sur le site du ministère de l'intérieur
         </a>
     </footer>
-    <script>
-      const button = document.getElementById("print");
-      button.style.display = "block";
-      button.onclick = function() {
-        window.print();
-      };
-    </script>
   </body>
 </html>
